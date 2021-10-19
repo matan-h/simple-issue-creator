@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "issue_reporter_gui"
+version = "0.1.0"
+description = "simple gui for issue reporting"
+authors = ["matan h <matan.honig2@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+PySimpleGUI = "^4.33"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
